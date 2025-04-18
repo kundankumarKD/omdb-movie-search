@@ -1,1 +1,3 @@
 # react_js_project_setup
+
+npx create-react-app omdb-movie-search && cd omdb-movie-search && mkdir -p src/{components/{MovieCard,MovieDetails,SearchBar,Spinner},pages/{HomePage,MoviePage},redux/{actions,reducers}} && touch src/components/MovieCard.js src/components/MovieCard.css src/components/MovieDetails.js src/components/MovieDetails.css src/components/SearchBar.js src/components/SearchBar.css src/components/Spinner.js src/components/Spinner.css src/pages/HomePage.js src/pages/MoviePage.js src/redux/actions/movieActions.js src/redux/actions/types.js src/redux/reducers/movieReducer.js src/redux/reducers/index.js src/redux/store.js && npm install react-redux redux redux-thunk axios react-router-dom
